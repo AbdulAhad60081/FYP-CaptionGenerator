@@ -1,0 +1,13 @@
+Flask==1.1.1
+tensorflow==1.15.0
+keras==2.2.4
+numpy==1.17.4
+gunicorn==20.0.4
+itsdangerous==1.1.0
+Jinja2==2.11.1
+MarkupSafe==1.1.1
+matplotlib==3.1.1
+pickle==4.0
+PIL==7.2.0
+Werkzeug==1.0.0
+gevent==1.4.0
