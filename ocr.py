@@ -30,7 +30,7 @@ def upload():
             basepath, 'uploads', secure_filename(f.filename))
         print(file_path)
         f.save(file_path)
-        #tess.pytesseract.tesseract_cmd = r"C:\Users\Ahad\AppData\Local\Tesseract-OCR\tesseract.exe"
+        tess.pytesseract.tesseract_cmd = r"tesseract.exe"
         img=Image.open(file_path)
         img.filter(ImageFilter.SHARPEN)
         text_frm_img = tess.image_to_string(img)
